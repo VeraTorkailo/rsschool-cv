@@ -1,6 +1,6 @@
 ### [My picture](https://www.ejin.ru/wp-content/uploads/2017/10/019571a1e76f8d2d4025d9b610126372.jpg)
 # **Vera Torkailo**
-* Email: v.torkailo@tut.by
+* Email: v.torkailo@gmail.com
 * GitHub: [VeraTorkailo](https://github.com/VeraTorkailo)
 * Discord: Vera (@veratorkailo)
 * LinkedIN: https://www.linkedin.com/in/vera-torkailo-115b1a14b
