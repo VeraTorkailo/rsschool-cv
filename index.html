@@ -4,24 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>RS School CV Torkailo</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/my photo.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/my_photo.ico">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__container">
-                <div class="burger__btn">
-                    <div class="burger__line"></div>
-                    <div class="burger__line"></div>
-                    <div class="burger__line"></div>
-                </div>
                 <div class="header__photo">
-                    <img src="assets/my photo.jpg" alt="photo" class="header__image">
+                    <img src="assets/my_photo.jpg" alt="Vera Torkailo photo" class="header__image">
                 </div>
                 <div class="header__content">
                     <nav class="header-menu">
@@ -30,7 +22,7 @@
                                 <a href="#about" class="header-menu__link">About</a>
                             </li>
                             <li class="header-menu__item">
-                                <a href="#code" class="header-menu__link">Code</a>
+                                <a href="#education" class="header-menu__link">Education</a>
                             </li>
                             <li class="header-menu__item">
                                 <a href="#projects" class="header-menu__link">Projects</a>
@@ -47,13 +39,89 @@
                         <h1 class="header__title">
                             Vera Torkailo
                         </h1>
-                        <h2 class="header__subtitle">
-                            Future front-end developer
-                        </h2>
                     </div>
                 </div>
             </div>
         </div>
-    </header>   
+    </header>
+    <div class="main-content">
+        <div class="container">
+            <div class="main-content__container">
+                <aside class="aside">
+                    <section class="education">
+                        <h3 class="side__header">
+                            Education
+                        </h3>
+                        <div class="education__place">
+                            <div class="education__title">
+                                Belarusian State Economic University
+                            </div>
+                            <div class="education__descr">
+                                Finance and Credit
+                            </div>
+                        </div>
+                    </section>
+                    <section class="skills" id="skills">
+                        <h3 class="side__header">
+                            Skills
+                        </h3>
+                        <ul class="skills__list">
+                            <li class="skills__item skills__sql">SQL</li>
+                            <li class="skills__item skills__tableau">Tableau</li>
+                            <li class="skills__item skills__github">GitHub</li>
+                            <li class="skills__item skills__figma">Figma</li>
+                        </ul>
+                    </section>
+                    <section class="languages" id="languages">
+                        <h3 class="side__header">
+                            Languages
+                        </h3>
+                        <ul class="languages__list">
+                            <li class="languages__item languages__eng">English (B2)</li>
+                            <li class="languages__item languages__pln">Polish (A1)</li>
+
+                        </ul>
+                    </section>
+                    <section class="contacts" id="contacts">
+                        <h3 class="side__header">
+                            Contacts
+                        </h3>
+                        <ul class="contacts__list">
+                            <li class="contacts__item languages__eng">+375-33-394-74-61</li>
+                            <li class="contacts__item teleg"><a href="https://t.me/to_me_me" target="_blank" class="contact__link">t.me/to_me_me</a> </li>
+                            <li class="contacts__item mail"><a href="mailto:v.torkailo@gmai.com" class="contact__link">v.torkailo@gmai.com</a> </li>
+
+                        </ul>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+                    <section class="main__about" id="about">
+                        <h3 class="main__header">
+                            About me
+                        </h3>
+                        <div class="divider divider_black"></div>
+                        <div class="main__descr">
+                            IF YOU TORTURE THE DATA LONG ENOUGH, IT WILL CONFESS TO ANYTHING
+                        </div>
+                    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__block">
+                <a href="https://github.com/veratorkailo" target="_blank">
+                    <img src="assets/github.jpg" alt="gihub-logo" class="footer__social">
+                </a>
+            </div>
+            <div class="footer__block">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="assets/rs_school_js.svg" alt="rs-school-logo" class="footer__image">
+                </a>                
+            </div>				
+
+        </div>
+    </footer>
 </body>
 </html>
